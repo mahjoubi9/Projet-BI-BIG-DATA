@@ -1,0 +1,19 @@
+
+<div>
+  <form class="row row-cols-sm-auto">
+    <div class="input-group" style="margin : 10px;padding:10px">
+      <input placeholder="date début"
+             [(ngModel)]="date1" class="form-control " name="date1"
+             style="width:50px" type="text">
+      <input placeholder="date fin"
+             [(ngModel)]="date2" class="form-control " name="date1"
+             style="width:50px" type="text">
+    </div>
+    <button (click)="getdata()"  class="btn btn-outline-info"
+            style="margin: 10px;padding: 10px" type="button">get new data
+    </button>
+  </form>
+</div>
+<div>
+  <div id="chartdiv" style="width: 100%; height: 500px"></div>
+</div>

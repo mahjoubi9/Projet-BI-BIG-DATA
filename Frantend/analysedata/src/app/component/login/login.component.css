@@ -1,0 +1,194 @@
+
+.contentdepage {
+  background-color: #9cbdc5;
+  background-size: contain;
+
+  opacity: 1;
+}
+.inlinepage1 {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.contenerofform1 {
+  /* left: 50%;
+   transform: translate(-50%);*/
+  background-color: black;
+  opacity: 0.6;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 40px;
+  transition: opacity 0.5s ease-in-out;
+
+}
+.contenerofform1:hover {
+  opacity:0.8;
+}
+.inlinepage2 {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.contenerofform2 {
+  /*left: 50%;
+  transform: translate(-50%);*/
+  background-color: black;
+  opacity: 0.6;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 40px;
+
+}
+.contenerofform2:hover {
+  opacity:0.8;
+}
+h3 {
+  color:red;
+  text-align:center;
+  font-weight: bold;
+}
+
+label{
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+input{
+  width: 60%;
+  font-size: 15px;
+  height: 50px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+button{
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: red;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+button:hover{
+  background: #db2525;
+}
+.login{
+  height: 460px;
+  background: rgb(167, 0, 0);
+  border-radius: 60% / 10%;
+  transform: translateY(-180px);
+  transition: .8s ease-in-out;
+}
+.login label{
+  color: #573b8a;
+  transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+  transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+  transform: scale(1);
+}
+#chk:checked ~ .signup label{
+  transform: scale(.6);
+}
+
+/*
+.position{
+  position: relative;
+  top: 25%;
+  left: 23%;
+}
+
+label{
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+input{
+  width: 60%;
+  font-size: 15px;
+  height: 50px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+button{
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #ff0000;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: .2s ease-in;
+  cursor: pointer;
+}
+button:hover{
+  background: #db2525;
+}
+.login{
+  height: 460px;
+  background: rgb(167, 0, 0);
+  border-radius: 60% / 10%;
+  transform: translateY(-180px);
+  transition: .8s ease-in-out;
+}
+.login label{
+  color: #573b8a;
+  transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+  transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+  transform: scale(1);
+}
+#chk:checked ~ .signup label{
+  transform: scale(.6);
+}
+*/

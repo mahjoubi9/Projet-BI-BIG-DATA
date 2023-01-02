@@ -1,0 +1,71 @@
+<!-- HEADER -->
+<header>
+  <!-- TOP HEADER -->
+  <div id="top-header">
+    <div class="container">
+      <ul class="header-links pull-right">
+        <li><a href=""><i class="fa-solid fa-business-time"></i> AnalyseData</a></li>
+        <!--<li><a *ngIf="isAdmin()" href="/charts"><i class="fa-solid fa-chart-line"></i> Key Performances Indicators</a></li>-->
+        <li><a *ngIf="isAdmin()" href="/users" ><i class="fa-solid fa-people-group"></i> Gestion des utilisateurs</a></li>
+        <li><a  href="/card" ><i class="fa-solid fa-map-location-dot"></i> card</a></li>
+        <li><a  href="/chartbar" ><i class="fa-sharp fa-solid fa-chart-column"></i> Chart Bar</a></li>
+        <li><a  href="/chartpie" ><i class="fa-solid fa-chart-pie"></i> Chart Pie</a></li>
+        <li><a  href="/WordCloud" ><i class="fa-sharp fa-solid fa-cloud"></i> Word Cloud</a></li>
+        <li><a *ngIf="isAtheticated()" href="/MyAccount" ><i class="fa fa-user-o"></i> My Account</a></li>
+        <!--<li><a *ngIf="isAtheticated()" href="/MonIndicateur" ><i class="fa-solid fa-house-user"></i> My Indicators</a></li>-->
+        <li><a *ngIf="isAdmin()" href="/home" ><i class="fa-solid fa-house"></i> Home</a></li>
+        <li> <a *ngIf="!isAtheticated()" style="color: white"  routerLink="/login" ><i class="fa-solid fa-arrow-right-from-bracket"></i> Login</a></li>
+        <li> <a *ngIf="isAtheticated()" style="color: white"  (click)="Logout()" class="btn" ><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- /TOP HEADER -->
+
+  <!-- MAIN HEADER -->
+  <div id="header">
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+        <!-- LOGO -->
+        <div class="col-md-3">
+          <div class="header-logo">
+            <a style="color: #1b58cc">
+              ANALYSEDATA
+              <!--<img src="../../../assets/img/logo.png" alt="" style="width:50px;height:auto;">-->
+            </a>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 clearfix" >
+          <div class="header-ctn">
+
+
+
+            <!-- Menu Toogle -->
+            <div class="menu-toggle">
+              <a href="#">
+                <i class="fa fa-bars"></i>
+                <span>Menu</span>
+              </a>
+            </div>
+            <!-- /Menu Toogle -->
+          </div>
+        </div>
+        <!-- /ACCOUNT -->
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  <!-- /MAIN HEADER -->
+</header>
+<!-- /HEADER -->
+
+<!-- NAVIGATION -->
+<nav id="navigation">
+</nav>
+<!-- /NAVIGATION -->
