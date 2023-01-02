@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd ~/.config
+
+sleep 3
+
+rm -rf google-chrome
+
+sleep 2
+
+
